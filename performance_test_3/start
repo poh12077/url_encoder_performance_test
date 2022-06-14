@@ -1,0 +1,8 @@
+#!/bin/bash
+
+javac -cp ".:./sol-secure-utils.jar" Test.java
+
+for var in 1 2 3 4 5 6 7   
+do 
+  time java -cp ".:./sol-secure-utils.jar" Test
+done
